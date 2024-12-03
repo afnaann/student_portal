@@ -1,0 +1,201 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fb;
+    color: #333;
+    padding: 20px;
+}
+
+ nav {
+    background-color: #1d3557;
+    padding: 10px 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav li {
+    margin: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #457b9d;
+}
+
+form {
+    display: inline-block;
+}
+
+button {
+    background-color: #2a9d8f;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #264653;
+}
+
+ form input,
+form select,
+form button {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+form input:focus,
+form select:focus,
+form button:focus {
+    outline: none;
+    border-color: #2a9d8f;
+}
+
+ .container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+ h1, h2 {
+    color: #1d3557;
+    font-size: 28px;
+    margin-bottom: 16px;
+}
+
+h3 {
+    color: #333;
+    font-size: 22px;
+    margin-bottom: 8px;
+}
+
+ ul.student-list {
+    list-style: none;
+    padding: 0;
+}
+
+ul.student-list li {
+    background-color: #e9f1f7;
+    border: 1px solid #ccc;
+    margin-bottom: 8px;
+    padding: 12px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul.student-list li a {
+    text-decoration: none;
+    color: #2a9d8f;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+ul.student-list li a:hover {
+    background-color: #264653;
+    color: white;
+}
+
+ul.student-list li span {
+    font-size: 16px;
+    color: #333;
+}
+
+ table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+    font-size: 16px;
+}
+
+table th {
+    background-color: #1d3557;
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: #f1f1f1;
+}
+
+table tr:hover {
+    background-color: #e0e0e0;
+}
+
+ table button {
+    background-color: #2a9d8f;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+table button:hover {
+    background-color: #264653;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.login-box {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+.login-box h2 {
+    text-align: center;
+    color: #1d3557;
+    margin-bottom: 20px;
+}
+
+.login-box input {
+    margin-bottom: 15px;
+}
